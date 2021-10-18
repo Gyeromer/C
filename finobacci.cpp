@@ -11,8 +11,8 @@ int main(void)
   y=1;
  
  
-  for (cont=0;cont<=100;cont=cont+20){
-      //x=cont+y; 
+  for (cont=10;cont>=0;cont=cont-2){
+      //x=cont+y;
       printf("\tvalor: %d\n",cont);
       y++;
       /*x=y;
@@ -22,3 +22,4 @@ int main(void)
   getchar();
   return 0;
 }
+

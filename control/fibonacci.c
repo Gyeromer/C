@@ -18,7 +18,7 @@ int main(void)
   }
   else{
   	printf("%d\n%d\n",x, y);
-  	for (cont=0;cont<paro-2;cont++)
+  	for (cont=0;cont<paro;cont++)
  	{
       z=x+y;
       printf("%d\n",z);
